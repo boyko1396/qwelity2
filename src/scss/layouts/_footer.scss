@@ -1,0 +1,79 @@
+.rswhykl-44 {
+    padding: 40px 0;
+    font-size: var(--fs-6);
+    color: $color-white-1;
+    line-height: 1.6;
+    @media (max-width: $lg) {
+        background: #15191B;
+        font-size: 16px;
+    }
+    @media (max-width: $xs) {
+        padding: 32px;
+        font-size: 15px;
+    }
+    &__container {
+        position: relative;
+    }
+    &__row {
+        align-items: center;
+    }
+    &__col {
+        @media (max-width: $sm) {
+            max-width: 100%;
+            flex-basis: 100%;
+            text-align: center;
+        }
+        &--terms {
+        }
+        &--copyright {
+            text-align: right;
+            @media (max-width: $xs) {
+                font-size: 13px;
+            }
+        }
+    }
+    &__info {
+        margin: -2px -15px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        @media (max-width: $sm) {
+            margin: 2px 0;
+            justify-content: center;
+        }
+        @media (max-width: $xs) {
+            margin: 20px 0;
+            flex-direction: column;
+        }
+        &-item {
+            margin: 2px 15px;
+            @media (max-width: $xs) {
+                font-size: 13.7px;
+            }
+        }
+    }
+    &__text {
+        margin: 0;
+        @media (max-width: $sm) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+        }
+        @media (max-width: $xs) {
+            flex-direction: column;
+            gap: 0;
+        }
+        a {
+            box-shadow: 0 1px 0 transparent;
+            transition: all .4s;
+            transition-property: color, box-shadow;
+            &:hover {
+                color: $color-accent-1;
+                text-decoration: none;
+            }
+        }
+    }
+    &__info {
+    }
+}

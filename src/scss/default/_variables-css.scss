@@ -1,0 +1,41 @@
+:root {
+    --fs-default: 18px;
+    --fs-1: 64px;
+    --fs-2: 32px;
+    --fs-3: 26px;
+    --fs-4: 20px;
+    --fs-5: 18px;
+    --fs-6: 16px;
+
+    --gap: 18px;
+    --gap-: -18px;
+    --gap-fluid: 88px;
+    --gap-fluid-: -88px;
+}
+
+@media (max-width: $md) {
+    :root {
+        --fs-default: 14px;
+        --fs-1: 59px;
+        --fs-2: 24px;
+        --fs-3: 18px;
+
+        --gap: 15px;
+        --gap-: -15px;
+        --gap-fluid: 20px;
+        --gap-fluid-: -20px;
+    }
+}
+
+@media (max-width: $xs) {
+    :root {
+        --fs-default: 14px;
+        --fs-1: 33px;
+        --fs-2: 20px;
+
+        --gap: 10px;
+        --gap-: -10px;
+        --gap-fluid: 10px;
+        --gap-fluid-: -10px;
+    }
+}

@@ -1,0 +1,110 @@
+.torheoteh41 {
+    flex-grow: 1;
+    padding: 50px 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fs-4);
+    line-height: 1.22;
+    color: $color-white-1;
+    text-align: center;
+    @media (max-width: $md) {
+        padding: 25px 0 50px;
+    }
+    &__container {
+    }
+    &__title {
+        margin: 0 0 40px;
+        line-height: 1.2;
+        @media (max-width: $md) {
+            margin-bottom: 30px;
+            font-size: 36px;
+        }
+        @media (max-width: $xs) {
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+    }
+    &__content {
+        background: rgba($color-accent-1, .8);
+        margin: 0 0 50px;
+        padding: 40px var(--gap-fluid) 50px;
+        border-radius: 10px;
+        @media (max-width: $md) {
+            margin-bottom: 30px;
+        }
+        @media (max-width: $sm) {
+            font-size: 14px;
+        }
+        @media (max-width: $xs) {
+            padding: 30px;
+        }
+        &-inner {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+    }
+    &__suptitle {
+        margin: 0 0 10px;
+    }
+    &__result {
+        margin: 0 0 10px;
+        font-weight: bold;
+        font-size: 110px;
+        line-height: 1.2;
+        color: $color-accent-2;
+        @media (max-width: $md) {
+            margin-bottom: 20px;
+            font-size: 66px;
+        }
+        @media (max-width: $xs) {
+            font-size: 40px;
+        }
+    }
+    &__subtitle {
+        margin: 0 0 20px;
+        font-size: 36px;
+        line-height: 1.2;
+        @media (max-width: $md) {
+            font-size: 24px;
+        }
+        @media (max-width: $sm) {
+            font-size: 18px;
+        }
+    }
+    &__share {
+        margin: 0 0 60px;
+        @media (max-width: $sm) {
+            margin-bottom: 45px;
+        }
+    }
+    &__appeal-phone {
+        margin: 0 0 10px;
+        font-size: 36px;
+        line-height: 1.2;
+        @media (max-width: $md) {
+            font-size: 24px;
+        }
+        @media (max-width: $sm) {
+            font-size: 18px;
+        }
+    }
+    &__description {
+    }
+    &__footer-text {
+        margin: 0 0 40px;
+        @media (max-width: $md) {
+            margin-bottom: 30px;
+        }
+    }
+    &__footer {
+        text-align: center;
+    }
+    &__btn-next {
+        min-width: 280px;
+        @media (max-width: $xs) {
+            width: 100%;
+            min-width: 0;
+        }
+    }
+}
