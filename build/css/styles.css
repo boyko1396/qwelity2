@@ -2383,6 +2383,8 @@ svg,
   display: flex;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 .yhgfprw34-form-b__footer-btn-prev {
   max-width: calc(50% - 10px);

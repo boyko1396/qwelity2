@@ -416,6 +416,7 @@ svg,
     &__footer {
         display: flex;
         justify-content: space-between;
+        flex-direction: row-reverse;
         &-btn-prev {
             max-width: calc(50% - 10px);
             @media (max-width: $xs) {
