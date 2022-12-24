@@ -3169,9 +3169,9 @@ svg,
     margin-bottom: 0;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .yhgfprw34__result-percent {
-    font-size: 100px;
+    font-size: 24vw;
   }
 }
 .yhgfprw34__result-card {

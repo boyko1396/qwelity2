@@ -177,8 +177,8 @@
             @media (max-width: $lg) {
                 margin-bottom: 0;
             }
-            @media (max-width: $xs) {
-                font-size: 100px;
+            @media (max-width: $sm) {
+                font-size: 24vw;
             }
         }
         &-card {

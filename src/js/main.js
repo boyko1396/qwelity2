@@ -14,7 +14,7 @@ if ($('.tel-input-country-modal-init').length > 0) {
     });
 }
 
-$(document).ready(function() {    
+$(document).ready(function() {
     // test pager
     $('.js-field-checkbox').click(function (e) {
         var screenTest = $('.tab-item.active');
